@@ -1,5 +1,5 @@
 body{
-    background: gray;
+    background: rgb(177, 228, 237);
     font-size:14pt;
 }
 .form{
@@ -33,7 +33,7 @@ table {
 
 td, th {
     border: none;
-    background: wheat; 
+    background: rgb(217, 204, 181); 
     padding: 10px; 
 
 }

@@ -43,7 +43,7 @@
 							'textArticle': document.querySelector("#textArticle").innerHTML,
 							'descriptionArticle': document.querySelector("#descriptionArticle").value,
 						}
-						let promise = fetch('http://localhost:3000/admin/editArticle', { // locallost!!!!
+						let promise = fetch('http://localhost:3000/admin/editArticle', {
 							method: 'POST',
 							headers: {
 								'Content-Type': 'application/json;charset=utf-8'
