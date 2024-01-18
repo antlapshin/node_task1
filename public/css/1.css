@@ -1,5 +1,5 @@
 body{
-    background: rgb(177, 228, 237);
+    background: linear-gradient(70deg, pink,blue);
     font-size:14pt;
 }
 .form{

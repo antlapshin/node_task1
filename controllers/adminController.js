@@ -20,13 +20,13 @@ exports.addArticle = async function (req, res) {
 };
 exports.editArticle = async function (req, res) {
     await Models.editOne(req.body);
-    let m = await Models.editOne(req.body.idArticle); // getOne -> editOne
+    let m = await Models.editOne(req.body.idArticle); 
     res.render('adminArticleShow', { data: m });
 
 };
 exports.deleteArticle = async function (req, res) {
     await Models.deleteOne();
-    let m = await Models.deleteOne(req.body.idArticle);           // addOne -> deleteOne -> req.body.idArticle
+    let m = await Models.deleteOne(req.body.idArticle);        
     res.render('adminArticleShow', { data: m });
 
 };
